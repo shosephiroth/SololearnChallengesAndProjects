@@ -4,14 +4,14 @@ function main() {
     let days = 0;
     let feet = 0;
     let distance = 32;
-    while (feet <= distance) {
+    while (feet <= depth) {
         days++;
-        if (feet <= 32) {
+        if (feet <= depth) {
             feet += 7;
             console.log(`days:${days} feet:${feet} distance:${distance}`);
         }
 
-        if (feet <= 31) {
+        if (feet <= depth) {
             feet -=2;
             console.log(`days:${days} feet:${feet} distance:${depth}`);
         }
