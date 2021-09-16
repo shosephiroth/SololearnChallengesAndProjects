@@ -8,14 +8,18 @@ function main() {
         days++;
         if (feet < depth) {
             feet += 7;
-            console.log(`days:${days} feet:${feet} depth:${depth}`);
+            //test log
+            //console.log(`days:${days} feet:${feet} depth:${depth}`);
         }
 
         if (feet < depth-1) {
             feet -=2;
-            console.log(`days:${days} feet:${feet} depth:${depth}`);
+            // test log
+            //console.log(`days:${days} feet:${feet} depth:${depth}`);
         }
     }
+
+    console.log(days);
 
     
 }
