@@ -6,12 +6,12 @@ function main() {
     let distance = 32;
     while (feet <= distance) {
         days++;
-        if (feet >= 32) {
+        if (feet <= 32) {
             feet += 7;
             console.log(`days:${days} feet:${feet} distance:${distance}`);
         }
 
-        if (feet >= 31) {
+        if (feet <= 31) {
             feet -=2;
             console.log(`days:${days} feet:${feet} distance:${distance}`);
         }
