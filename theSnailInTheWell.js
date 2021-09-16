@@ -13,7 +13,7 @@ function main() {
 
         if (feet <= 31) {
             feet -=2;
-            console.log(`days:${days} feet:${feet} distance:${distance}`);
+            console.log(`days:${days} feet:${feet} distance:${depth}`);
         }
     }
 
