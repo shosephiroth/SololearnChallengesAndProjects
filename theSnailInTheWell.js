@@ -8,12 +8,12 @@ function main() {
         days++;
         if (feet <= depth) {
             feet += 7;
-            console.log(`days:${days} feet:${feet} distance:${distance}`);
+            console.log(`days:${days} feet:${feet} depth:${depth}`);
         }
 
         if (feet <= depth) {
             feet -=2;
-            console.log(`days:${days} feet:${feet} distance:${depth}`);
+            console.log(`days:${days} feet:${feet} depth:${depth}`);
         }
     }
 
