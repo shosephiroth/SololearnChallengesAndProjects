@@ -1,6 +1,11 @@
 function contact(name, number) {
     this.name = name;
     this.number = number;
+
+    this.print = () => {
+        let contactId = `${this.name}:${this.number}`;
+        console.log(contactId);
+    }
 }
 
 var a = new contact("David", 12345);
