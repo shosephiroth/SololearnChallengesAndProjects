@@ -3,7 +3,7 @@ function contact(name, number) {
     this.number = number;
 
     this.print = () => {
-        let contactId = `${this.name}:${this.number}`;
+        let contactId = `${this.name}: ${this.number}`;
         console.log(contactId);
     }
 }
