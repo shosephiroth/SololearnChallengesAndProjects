@@ -2,11 +2,13 @@ class Add {
   constructor(...words) {
       this.words = words;
   }
-  //your code goes here
+  //your code goes here  
   print() {
+    let lastWord = "";
     for (let word of this.words) {
-      console.log(`$${word}$`);
+      lastWord += `$${word}$`;
     }
+    console.log(lastWord);
   }
 }
 
