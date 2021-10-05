@@ -3,6 +3,11 @@ class Add {
       this.words = words;
   }
   //your code goes here
+  print() {
+    for (let word of this.words) {
+      console.log(`$${word}$`);
+    }
+  }
 }
 
 var x = new Add("hehe", "hoho", "haha", "hihi", "huhu");
