@@ -6,9 +6,9 @@ class Add {
   print() {
     let lastWord = "";
     for (let word of this.words) {
-      lastWord += `$${word}$`;
+      lastWord += `$${word}`;
     }
-    console.log(lastWord);
+    console.log(lastWord + "$");
   }
 }
 
